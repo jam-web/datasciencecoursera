@@ -1,0 +1,6 @@
+cd unplugged
+git add -A
+git commit -m "revise css"
+git remote rm origin
+git remote add origin git@github.com:jam-web/unplugged-retreat.git
+git push -u origin master

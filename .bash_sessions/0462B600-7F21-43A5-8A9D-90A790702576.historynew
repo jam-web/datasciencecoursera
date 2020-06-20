@@ -1,0 +1,93 @@
+git remote v
+git remote -v
+cd jubilee
+git remote -v
+git branch
+cd gh-pages
+open gh-pages
+git checkout -b gh-pages
+git checkout gh-pages
+ls
+cd jubilee
+cd ..
+cd jubilee
+ls
+ls
+cd .
+cd ..
+ls
+cd jubilee
+git init
+git remote add origin https://github.com/jam-web1-hash/github-upload.git
+git commit -a "initializing repository"
+git commit -m "initiatlizing repository"
+git push -u origin master
+ls
+git log
+global config 
+git global config
+git --help
+git branch 
+git push origin gh-pages
+git origin
+git commit -m "Gh-pages"
+ls
+git commit -m "testing"
+git status
+cd gh-pages
+git init gh-pages
+git commit -m "commit gh-pages"
+ls
+git checkout
+git checkout gh-pages
+git push origin gh-pages
+git remote add gh-pages //users/judith_m/jubilee
+git push origin gh-pages
+git remote v-
+git remote -v
+git push origin https://users/judithmagee/jubilee/index.html
+git config -get remote.origin.url
+git config --get remote.origin.url
+git push origin master
+git pull
+cd ..
+ls
+cd ..
+cd ..
+cd ..
+cd ..
+ls
+cd users
+ls
+cd judithmagee
+ls
+git push origin jam-web1-hash.github.io/jubilee
+cd jubilee
+git push origin jam-web1-hash.github.io/jubilee
+cd ..
+rogue
+cd ..
+ls
+cd rogue
+cd ..
+ls
+cd users
+ls
+cd judithmagee
+ls
+cd rogue
+ls
+git init rogue
+git commit -m "Rogue Pickings Project"
+ls -a
+git log
+git init
+git add index.html
+git commit -m "Rogue Pickings"
+git remote -v
+github.com/judithmagee/rogue
+ls
+git add index.html
+git push origin master
+git remote add origin git@github.com:jam-web1-hash/Rogue.git
+git push -u origin master

@@ -1,0 +1,5 @@
+[KJudiths-Air:~ judithmagee$ 1+1
+bash: 1+1: command not found
+]0;~Judiths-Air:~ judithmagee$ [1] 2
+bash: [1]: command not found
+]0;~Judiths-Air:~ judithmagee$ 

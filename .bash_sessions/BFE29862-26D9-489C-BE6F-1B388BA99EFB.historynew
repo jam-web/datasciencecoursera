@@ -1,0 +1,11 @@
+cd documents/105-practice
+ls
+git remote add upstream git@github.com:skillcrush/105-practice.git
+git remote -v
+git fetch upstream
+git branch -a
+git checkout
+git merge upstream/master
+git checkout
+git merge
+git push origin advice

@@ -1,0 +1,14 @@
+ls
+d resume
+cd web developer resume
+ls
+lc
+ls
+cd Web Developer Resume
+cd resume
+ls
+git init
+git add -A
+git commit -m "initial commit"
+git remote add origin git@github.com:jam-web/resume.git
+git push -u origin master

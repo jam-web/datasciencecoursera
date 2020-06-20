@@ -1,0 +1,8 @@
+cs unplugged
+git add -A
+cd unplugged
+git add -A
+git commit _m "adding about page"
+git commit -m "adding about page"
+git remote -v
+git push -u origin master

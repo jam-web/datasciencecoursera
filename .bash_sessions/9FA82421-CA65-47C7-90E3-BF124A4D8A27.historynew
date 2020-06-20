@@ -1,0 +1,57 @@
+pwd
+git remote add origin https://github.com/jam-web/jubilee.git
+git init
+git add README .md
+git commit -m "First commit"
+git remote add origin https://github.com/jam-web/jubilee.git
+git push u-origin master
+git push -u origin master
+git rm jubilee.git
+ls
+cd jubilee
+ls
+git remote rm gh-pages
+git remote rm origin
+git remote -v
+ls
+git remote add origin https://github.com/jam-web/jubilee.git
+git push -u origin master
+git push -u origin master
+git conf --global user.name
+git config --global user.name
+git push -u origin master
+git config --global password
+cd ..
+git push -u origin master
+ls
+cd jubilee
+git push -u origin master
+ls
+git remote -v
+pwd
+git gh-pages
+create branch gh-pages
+git branch
+git branch -a
+git push origin gh-pages
+git status
+git status
+get remote -v
+git remote -v
+git config --global user.name
+git config --global user.email
+git config --global password
+git config --global user.password
+ls
+git status
+git add -a
+git commit -m "add"
+git fetch master
+git master jubilee
+git remote rm gh-pages
+git remote rm origin
+git remote -v
+ls
+git remote add origin https://github.com/jam-web/jubilee.git
+git push -u origin master
+https://github.com/jam-web/jubilee.git

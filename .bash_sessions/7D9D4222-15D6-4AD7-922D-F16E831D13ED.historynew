@@ -1,0 +1,39 @@
+cd 105-coding_resources
+cd documents
+cd 101-coding_resources
+cd 105-coding_resources
+pwd
+git status
+git checkout about
+ls
+git status
+open
+git checkout master
+git branch
+git log
+git merge about-page -m "Merge about page into master"
+git log
+git branch -d about-page
+git branch
+git push origin master
+git checkout -b about-page-edits
+git branch
+open
+git add -A
+git checkout master
+git merge about-page-edits -m "Merged study buddy heading changes into master"
+git status
+git push origin master
+cd my-first-repo
+cd ..
+cd my-first-repo
+pwr
+pwd
+git status
+open
+git add css/main.css
+git commit -m "change color"
+git log
+git commit --amend -m "Changed the background color to misty rose"
+git log
+git log

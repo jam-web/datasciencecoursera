@@ -1,0 +1,7 @@
+cd unplugged
+git init
+git add -A
+git commi -m "initial"
+git commit -m "initial"
+git remote add origin git@github.com:jam-web/html-boilerplate.git
+git push -u origin master

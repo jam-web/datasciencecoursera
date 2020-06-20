@@ -1,0 +1,509 @@
+      -f                Reads input from standard input and opens with TextEdit.
+      -F  --fresh       Launches the app fresh, that is, without restoring windows. Saved persistent state is lost, excluding Untitled documents.
+      -R, --reveal      Selects in the Finder instead of opening.
+      -W, --wait-apps   Blocks until the used applications are closed (even if they were already running).
+          --args        All remaining arguments are passed in argv to the application's main() function instead of opened.
+      -n, --new         Open a new instance of the application even if one is already running.
+      -j, --hide        Launches the app hidden.
+      -g, --background  Does not bring the application to the foreground.
+      -h, --header      Searches header file locations for headers matching the given filenames, and opens them.
+      -s                For -h, the SDK to use; if supplied, only SDKs whose names contain the argument value are searched.
+                        Otherwise the highest versioned SDK in each platform is used.
+Judiths-Air:105-practice judithmagee$ ls
+README.mdadvicecssindex.html
+Judiths-Air:105-practice judithmagee$ git add *
+Judiths-Air:105-practice judithmagee$ git commit -m "My First Repo"
+On branch advice
+nothing to commit, working tree clean
+Judiths-Air:105-practice judithmagee$ git push origin advice
+Username for 'https://github.com': judithmagee
+Password for 'https://judithmagee@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/skillcrush/105-practice.git/'
+Judiths-Air:105-practice judithmagee$ git remote add origin https://github.com/jam-web/my-first-repo.git
+fatal: remote origin already exists.
+Judiths-Air:105-practice judithmagee$ git push -u origin master
+Username for 'https://github.com': judithmagee
+Password for 'https://judithmagee@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/skillcrush/105-practice.git/'
+Judiths-Air:105-practice judithmagee$ git credential-osxkeychain
+usage: git credential-osxkeychain <get|store|erase>
+Judiths-Air:105-practice judithmagee$ text for cred helper
+-bash: text: command not found
+Judiths-Air:105-practice judithmagee$ git init
+Reinitialized existing Git repository in /Users/judithmagee/Desktop/105-practice/.git/
+Judiths-Air:105-practice judithmagee$ git add README.md
+Judiths-Air:105-practice judithmagee$ git commit -m "first commit"
+On branch advice
+nothing to commit, working tree clean
+Judiths-Air:105-practice judithmagee$ git remote add origin git@github.com:jam-web/my-first-repo.git 
+fatal: remote origin already exists.
+Judiths-Air:105-practice judithmagee$ git push -u origin master
+Username for 'https://github.com': judithmagee
+Password for 'https://judithmagee@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/skillcrush/105-practice.git/'
+Judiths-Air:105-practice judithmagee$ ls
+README.mdadvicecssindex.html
+Judiths-Air:105-practice judithmagee$ git remote add origin git@github.com:jam-web/my-first-repo.git
+fatal: remote origin already exists.
+Judiths-Air:105-practice judithmagee$ git push -u origin master
+Username for 'https://github.com': judithmagee
+Password for 'https://judithmagee@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/skillcrush/105-practice.git/'
+Judiths-Air:105-practice judithmagee$ .git/config file
+-bash: .git/config: Permission denied
+Judiths-Air:105-practice judithmagee$ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> advice
+
+Judiths-Air:105-practice judithmagee$ ls -al~/.ssh
+ls: illegal option -- ~
+usage: ls [-@ABCFGHLOPRSTUWabcdefghiklmnopqrstuwx1%] [file ...]
+Judiths-Air:105-practice judithmagee$ ls -al ~/.ssh
+total 24
+drwxr-xr-x   5 judithmagee  staff   160 Mar 19 15:41 .
+drwxr-xr-x+ 41 judithmagee  staff  1312 Apr  9 16:44 ..
+-rw-------   1 judithmagee  staff  1876 Mar 19 15:27 id_rsa
+-rw-r--r--   1 judithmagee  staff   400 Mar 19 15:27 id_rsa.pub
+-rw-r--r--   1 judithmagee  staff  1985 Mar 21 12:54 known_hosts
+Judiths-Air:105-practice judithmagee$ ssh-add
+Enter passphrase for /Users/judithmagee/.ssh/id_rsa: 
+Identity added: /Users/judithmagee/.ssh/id_rsa (judith@jamweb1.com)
+Judiths-Air:105-practice judithmagee$ ssh -T git@github.com
+Hi jam-web1-hash! You've successfully authenticated, but GitHub does not provide shell access.
+Judiths-Air:105-practice judithmagee$ # Attempts to ssh to github
+Judiths-Air:105-practice judithmagee$ eval "$(ssh-agent -s)"
+Agent pid 2172
+Judiths-Air:105-practice judithmagee$ addkeystoagent
+-bash: addkeystoagent: command not found
+Judiths-Air:105-practice judithmagee$ ~/.ssh/config
+-bash: /Users/judithmagee/.ssh/config: No such file or directory
+Judiths-Air:105-practice judithmagee$ cd .
+Judiths-Air:105-practice judithmagee$ cd ..
+Judiths-Air:desktop judithmagee$ cd .
+Judiths-Air:desktop judithmagee$ cd ..
+Judiths-Air:~ judithmagee$ pbcopy <~/.ssh/id_rsa.pub
+Judiths-Air:~ judithmagee$ ls -al ~/.ssh
+total 24
+drwxr-xr-x   5 judithmagee  staff   160 Mar 19 15:41 .
+drwxr-xr-x+ 41 judithmagee  staff  1312 Apr  9 16:44 ..
+-rw-------   1 judithmagee  staff  1876 Mar 19 15:27 id_rsa
+-rw-r--r--   1 judithmagee  staff   400 Mar 19 15:27 id_rsa.pub
+-rw-r--r--   1 judithmagee  staff  1985 Mar 21 12:54 known_hosts
+Judiths-Air:~ judithmagee$ ssh-keygen -t rsa -b 4096 -C "judith783@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/judithmagee/.ssh/id_rsa): 
+/Users/judithmagee/.ssh/id_rsa already exists.
+Overwrite (y/n)? y
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Passphrases do not match.  Try again.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /Users/judithmagee/.ssh/id_rsa.
+Your public key has been saved in /Users/judithmagee/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:urk+zZK4wmgxZrQ9MpdxjlT1qZwqaMGA+zl5fykimI4 judith783@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|      ..         |
+|.    .  . .      |
+|o   .    o       |
+|oo o .. o        |
+|oo+ *  +S        |
+| XoO ...         |
+|oB@.oo.+ .       |
+|*.+o+.=o=        |
+|E. o.+**         |
++----[SHA256]-----+
+Judiths-Air:~ judithmagee$ eval "$(ssh-agent -s)"
+Agent pid 2179
+Judiths-Air:~ judithmagee$ adkeytoagent
+-bash: adkeytoagent: command not found
+Judiths-Air:~ judithmagee$ AddKeysToAgent
+-bash: AddKeysToAgent: command not found
+Judiths-Air:~ judithmagee$ ~/.ssh/config
+-bash: /Users/judithmagee/.ssh/config: No such file or directory
+Judiths-Air:~ judithmagee$ ssh -add -K ~/.ssh/id_rsa
+ssh: illegal option -- d
+usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
+           [-b bind_address] [-c cipher_spec] [-D [bind_address:]port]
+           [-E log_file] [-e escape_char] [-F configfile] [-I pkcs11]
+           [-i identity_file] [-J [user@]host[:port]] [-L address]
+           [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
+           [-Q query_option] [-R address] [-S ctl_path] [-W host:port]
+           [-w local_tun[:remote_tun]] destination [command]
+Judiths-Air:~ judithmagee$ pbcopy < ~/.ssh/id_rsa.pub
+Judiths-Air:~ judithmagee$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/Users/judithmagee/.ssh/id_rsa): judithmagee
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in judithmagee.
+Your public key has been saved in judithmagee.pub.
+The key fingerprint is:
+SHA256:lagoJsfeKnHGWgyzzNbDJ+O0UPDUxGyW3qw/w1Pv7BY your_email@example.com
+The key's randomart image is:
++---[RSA 4096]----+
+|    =..          |
+| . . B   . .     |
+|  + + o . o      |
+|o. o o + .       |
+|+*O . o S        |
+|oX*X o   . E     |
+|.*= B o . . .    |
+|o  +   *  .o     |
+| ..     + ++     |
++----[SHA256]-----+
+Judiths-Air:~ judithmagee$ eval "$(ssh-agent -s)"
+Agent pid 2207
+Judiths-Air:~ judithmagee$ host
+Usage: host [-aCdilrTvVw] [-c class] [-N ndots] [-t type] [-W time]
+            [-R number] [-m flag] hostname [server]
+       -a is equivalent to -v -t ANY
+       -c specifies query class for non-IN data
+       -C compares SOA records on authoritative nameservers
+       -d is equivalent to -v
+       -i IP6.INT reverse lookups
+       -l lists all hosts in a domain, using AXFR
+       -m set memory debugging flag (trace|record|usage)
+       -N changes the number of dots allowed before root lookup is done
+       -r disables recursive processing
+       -R specifies number of retries for UDP packets
+       -s a SERVFAIL response should stop query
+       -t specifies the query type
+       -T enables TCP/IP mode
+       -v enables verbose output
+       -V print version number and exit
+       -w specifies to wait forever for a reply
+       -W specifies how long to wait for a reply
+       -4 use IPv4 query transport only
+       -6 use IPv6 query transport only
+Judiths-Air:~ judithmagee$ ssh-add -K ~/.ssh/id_rsa
+Enter passphrase for /Users/judithmagee/.ssh/id_rsa: 
+Identity added: /Users/judithmagee/.ssh/id_rsa (judith783@gmail.com)
+Judiths-Air:~ judithmagee$ pbcopy < ~/.ssh/id_rsa.pub
+Judiths-Air:~ judithmagee$ cd my-first-repo
+-bash: cd: my-first-repo: No such file or directory
+Judiths-Air:~ judithmagee$ cd desktop
+Judiths-Air:desktop judithmagee$ cd my-first-repo
+Judiths-Air:my-first-repo judithmagee$ git remote add upstream git@github.com:skillcrush/105-practice.git
+Judiths-Air:my-first-repo judithmagee$ git remote -v
+upstreamgit@github.com:skillcrush/105-practice.git (fetch)
+upstreamgit@github.com:skillcrush/105-practice.git (push)
+Judiths-Air:my-first-repo judithmagee$ git fetch upstream
+remote: Enumerating objects: 13057, done.
+remote: Total 13057 (delta 0), reused 0 (delta 0), pack-reused 13057
+Receiving objects: 100% (13057/13057), 37.28 MiB | 11.46 MiB/s, done.
+Resolving deltas: 100% (7093/7093), done.
+From github.com:skillcrush/105-practice
+ * [new branch]      master     -> upstream/master
+Judiths-Air:my-first-repo judithmagee$ git branch -a
+  remotes/upstream/master
+Judiths-Air:my-first-repo judithmagee$ git checkout
+fatal: You are on a branch yet to be born
+Judiths-Air:my-first-repo judithmagee$ git merge upstream/master
+error: Untracked working tree file 'index.html' would be overwritten by merge.
+fatal: read-tree failed
+Judiths-Air:my-first-repo judithmagee$ git push origin advice
+error: src refspec advice does not match any
+error: failed to push some refs to 'origin'
+Judiths-Air:my-first-repo judithmagee$ git checkkout
+git: 'checkkout' is not a git command. See 'git --help'.
+The most similar command is
+checkout
+Judiths-Air:my-first-repo judithmagee$ git merge
+fatal: No remote for the current branch.
+Judiths-Air:my-first-repo judithmagee$ git branch gh-pages
+fatal: Not a valid object name: 'master'.
+Judiths-Air:my-first-repo judithmagee$ git remote -v
+upstreamgit@github.com:skillcrush/105-practice.git (fetch)
+upstreamgit@github.com:skillcrush/105-practice.git (push)
+Judiths-Air:my-first-repo judithmagee$ git fetch upstream
+Judiths-Air:my-first-repo judithmagee$ git branch -a
+  remotes/upstream/master
+Judiths-Air:my-first-repo judithmagee$ git merge upstream/master
+error: Untracked working tree file 'index.html' would be overwritten by merge.
+fatal: read-tree failed
+Judiths-Air:my-first-repo judithmagee$ ls
+cssjudith-m-advice.html
+index.htmlyour-name-advice.html
+Judiths-Air:my-first-repo judithmagee$ git add *
+Judiths-Air:my-first-repo judithmagee$ git git commit -m "initial commit"
+git: 'git' is not a git command. See 'git --help'.
+The most similar command is
+init
+Judiths-Air:my-first-repo judithmagee$ git commit -m "initial commit"
+[master (root-commit) e7e51ef] initial commit
+ 5 files changed, 497 insertions(+)
+ create mode 100644 css/main.css
+ create mode 100644 css/normalize.css
+ create mode 100644 index.html
+ create mode 100644 judith-m-advice.html
+ create mode 100644 your-name-advice.html
+Judiths-Air:my-first-repo judithmagee$ git checkout
+Judiths-Air:my-first-repo judithmagee$ git merge upstream/master
+fatal: refusing to merge unrelated histories
+Judiths-Air:my-first-repo judithmagee$ git remote -v
+upstreamgit@github.com:skillcrush/105-practice.git (fetch)
+upstreamgit@github.com:skillcrush/105-practice.git (push)
+Judiths-Air:my-first-repo judithmagee$ git branch gh-pages
+Judiths-Air:my-first-repo judithmagee$ git push origin gh-pages
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+Please make sure you have the correct access rights
+and the repository exists.
+Judiths-Air:my-first-repo judithmagee$ git remote add origin git@github.com:jam-web/my-first-repo.git
+Judiths-Air:my-first-repo judithmagee$ git push -u origin master
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 3.74 KiB | 958.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0)
+To github.com:jam-web/my-first-repo.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Judiths-Air:my-first-repo judithmagee$ cd jubilee
+-bash: cd: jubilee: No such file or directory
+Judiths-Air:my-first-repo judithmagee$ ls
+cssjudith-m-advice.html
+index.htmlyour-name-advice.html
+Judiths-Air:my-first-repo judithmagee$ cd ..
+Judiths-Air:desktop judithmagee$ ls
+105-practiceTrendReport_2020.pdfjubilee.docx
+Imagesblueprint.docxmy-first-repo
+Relocated Itemsdocumetspythonlearn.pdf
+Judiths-Air:desktop judithmagee$ cd jubilee
+-bash: cd: jubilee: No such file or directory
+Judiths-Air:desktop judithmagee$ ls
+105-practiceTrendReport_2020.pdfjubilee.docx
+Imagesblueprint.docxmy-first-repo
+Relocated Itemsdocumetspythonlearn.pdf
+Judiths-Air:desktop judithmagee$ cd ..
+Judiths-Air:~ judithmagee$ ls
+101-jubilee_austen-07-header-styles 2
+Applications
+Creative Cloud Files
+Creative Cloud Files (archived) (1)
+Desktop
+Documents
+Downloads
+Dropbox
+Library
+Movies
+Music
+Pictures
+Public
+Relocated Items
+Sites
+Skillcrush
+analgous
+crushingit
+iCloud Drive (Archive)
+jmagee1@mail.brandman.edu Creative Cloud Files
+jubilee
+judith_magee@yahoo.com Creative Cloud Files
+judithmagee
+judithmagee.pub
+minimal
+repository-open-graph-template.png
+rogue
+Judiths-Air:~ judithmagee$ cd jubilee
+Judiths-Air:jubilee judithmagee$ ls
+aboutcssimgmain.html
+contacthomeindex.htmlportfolio
+Judiths-Air:jubilee judithmagee$ git add *
+Judiths-Air:jubilee judithmagee$ git commit -m "initial commit"
+On branch gh-pages
+nothing to commit, working tree clean
+Judiths-Air:jubilee judithmagee$ ls
+aboutcssimgmain.html
+contacthomeindex.htmlportfolio
+Judiths-Air:jubilee judithmagee$ git branch gh-pages
+fatal: A branch named 'gh-pages' already exists.
+Judiths-Air:jubilee judithmagee$ git push origin gh-pages
+Username for 'https://github.com': judithmagee
+Password for 'https://judithmagee@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/jam-web/jubilee.git/'
+Judiths-Air:jubilee judithmagee$ git push origin gh-pages
+Username for 'https://github.com': judithmagee
+Password for 'https://judithmagee@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/jam-web/jubilee.git/'
+Judiths-Air:jubilee judithmagee$ 
+cd desktop
+rm -rf git
+rm -rf .git
+remote v-
+git remote v-
+ls
+ls -la
+cd ..
+ls -la
+cd jubilee
+ls
+git init jubilee
+git add jubilee
+cd ..
+rm -rf .git
+ls
+git add jubliee
+cd jubilee
+ls
+git remote -v
+git init 
+git status
+ls
+git add *
+git commit -m "initial commit"
+git remote -v
+git rm jubilee.git
+git add *
+git commit -m "initial commit"
+git br master
+git branch master
+cd master
+git remote add origin git@github.com:jam-web/jubilee.git
+git push -u origin master
+git config --get remote.origin.url
+git config --list
+cd jubilee
+credential.helper=osxkeychain
+credential manager
+git --local
+git config credential.username "judithmagee"
+git config credential.password "judithmagee"
+edit .git/config manually
+git config credential.password "judithmagee"
+git config credential.username "judithmagee"
+git config --global user.email "judith783@gmail.com
+pwd
+ls
+
+cd jubilee
+get config user.email "judith783@gmail.com"
+git config user.name "judithmagee"
+git config user.password "your password"
+git init
+git push -u origin 
+git push --set-upstream origin gh-pages
+get config user.password
+git config user.password
+git push ---upstream origin gh-pages
+git push --set-upstream origin gh-pages
+git config user.name
+git config user.password
+cd..
+cd ..
+.gitconfig
+open .gitconfig
+git config --global user.name
+git config --global user.password
+git pwd
+pwr
+pwd
+cd jubilee
+ls
+git add *
+git commit -m "jubilee-repo"
+branch gh-pages
+git branch gh-pages
+ls
+git remote -v
+git status
+git add *
+git status on branch master
+git add *
+get rm --cached jubilee
+git rm --cached jubilee
+rm jubilee
+git commit -m "first commit"
+branch master
+git branch master
+ls
+git remote -v
+git remote add origin git@github.com:jam-web/jubilee.git
+git push -u origin master
+git remote add origin git@github.com:jam-web/jubilee.git
+git remote -v
+git push -u origin master
+git push origin master
+git push origin master
+cd rogue
+ls
+git init Rogue-Pickings-Demo
+commit -m "Initial Commit"
+git add index.html
+ls
+ls
+git add img
+git add css
+git add fontx
+git add fonts
+git commit -m "initial commit"
+git branch gh-pages
+git push origin gh-pages
+git remote push 
+git remote push https://github.com/jam-web1-hash/Rogue/pull/new/gh-pages
+pwd
+git push origin gh-pages
+git remote -v
+pwd
+mkdir much_wow
+ls
+cd much_wow
+touch index.html
+open much_wow
+cd ..
+rm -r
+rm -r much_wow
+rm -r jubilee
+cd rogue
+ls
+git init
+git status
+git add *
+git status
+git add index.html
+git add img
+git add css
+git add fonts
+ls
+git status
+git commit -m "Initial commit"
+git log
+ssh
+cd ..
+ssh agent
+cd rogue
+git push origin master
+cd ..
+pwd
+mkdir .ssh
+ssh-keygen -t rsa -C "judith783@gmail.com"
+ssh -add -K ~/.ssh/id_rea
+pbcopy < ~/ .ssh/id_rsa.pub
+pbcopy < ~/.ssh/id_rsa.pub
+ssh -T git@github.com
+yes
+git --version
+git config --global user.name
+git config --global user.emal
+git config --global user.email
+pwd
+ls
+open .
+cd minimal
+cat

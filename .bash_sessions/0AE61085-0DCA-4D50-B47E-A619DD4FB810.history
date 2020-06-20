@@ -1,0 +1,507 @@
+git remote -rm origin 
+git remote -v
+git rm origin
+git remote -v
+git remote rm origin
+git remote -v
+git remote rm gh-pages
+git remote add origin git@github.com:jam-web/minimal.git
+git remote -v
+git push -u origin master
+git status
+git checkout master
+git remote -v
+git remote rm origin
+git remote -v
+git remote rm origin
+git remote rm gh-pages
+git remote -v
+ls
+git init 
+git git remote origin
+git remote rm origin
+git remote rm gh-pages
+git status
+git add .
+git commit -m "revised CSS"
+git status
+ls
+git remote -v
+git remote add origin git@github.com:jam-web/minimal.git
+git remote -v
+git push -u origin master
+cd analogous
+ls
+git init
+git status
+git status
+git add -A
+git commit "Initial commit"
+git commit -m "Initial commit"
+git remote add origin git@github.com:jam-web/analogos.git
+git push -u origin master
+git remote -v
+cd analogous
+get status
+git status
+ls -a
+git checkout -b gh-pages
+git remote -v
+git remote rm destination
+git remove rm origin
+git remote rm origin
+git remote -v
+git remote rm gh-pages
+ls -a
+git commit -m "revised css"
+git add -A
+git checkout master
+ls -a
+git add -A
+git commit -m "revised css"
+git remote add origin git@github.com:jam-web/analogous.git
+git push -u origin master
+git remote -v
+cd analogous
+ls
+ls -a
+git remote -v
+git remote rm origin
+git remote -v
+git add -A
+git commit -m "added gmail"
+git remote add origin git@github.com:jam-web/analogous.git
+git push -u origin master
+git remote -v 
+cd lol-cat
+ls
+cd lolcat-clock
+git init
+git add -A
+cd lolcat-clock
+ls -a
+git add -a
+git add .gitignore
+ls -a
+git commit -m "initial commit"
+it remote add origin git@github.com:jam-web/lolcat-clock.git
+git push -u origin master
+git remote -v
+git remote add origin git@github.com:jam-web/lolcat-clock.git
+git push -u origin master
+cd resume
+git remote -v
+cd breakpoints
+ls
+git init breakpoints
+git add .gitignore
+git add -A
+git remote -v
+git commit -m "initial"
+git remote add origin git@github.com:jam-web/breakpoints.git
+ls
+ls-a
+ls -a
+git branch
+git status
+git init
+git status
+git add -A
+git remote commit -m "initial"
+git commit -m "initial"
+git remote add origin git@github.com:jam-web/breakpoints.git
+git remote -v
+git push -u origin master
+cd changefonts
+git init
+git status
+git add -A
+git commit -m "initial"
+git remote add origin git@github.com:jam-web/changefonts.git
+git push -u origin master
+cd align
+ls
+git init
+git status
+git add -A
+git commit -m "initial"
+git remote add origin git@github.com:jam-web/align.git
+git remote -v
+git push -u origin master
+cd CSSboilerplate
+ls
+git status
+git init
+git add -A
+git commit -m "CSS boilerplate"
+git add -A
+git remote -v
+ls
+git commit -m "CSS Boilerplate"
+git remote add origin git@github.com:jam-web/CSSboilerplate.git
+git push -u origin master
+cd coding-responsive-websites
+ls
+get add -A
+git add -A
+git add
+git init
+git add -A
+ls
+git add responsive web design
+cd responsive web design
+cd ..
+ls
+cd coding-responsive-websites
+ls
+cd responsive web design
+cd responsive
+cd ..
+cd responsive
+ls
+git init
+git add -A
+git commit -m "initial"
+git remote add origin git@github.com:jam-web/responsive.git
+git push -u origin master
+cd divflexbox
+ls
+git init
+git add -A
+git remote commit -m "initial"
+git commit -m "initial"
+git remote -v
+git remote add origin git@github.com:jam-web/aisha.git
+git push -r origin master
+git remote -v
+cd rpflex
+ls
+git init
+git add -A
+git commit -m "initial"
+git remote add origin git@github.com:jam-web/html-boilerplate.git
+git push -u origin master
+cd aisha
+cd divflex
+cd divflexbox
+ls
+git init
+git add -A
+git commit -m "initial"
+git add -A
+git commit -m "initial"
+ls
+git status
+git remote add origin git@github.com:jam-web/aisha.git
+git push -u origin master
+cd pickings
+ls
+git init
+git add -A
+git commit -m "initial"
+git remote add origin git@github.com:jam-web/responsive-rogue.git
+git push -u origin master
+cd pickings
+git remote -v
+git rm remote origin
+git remote rm origins
+git remote rm origin
+git commit -m "responsive"
+git add -a
+git add -A
+git commit -m "responsive"
+git push -u origin master
+git remote add origin git@github.com:jam-web/responsive-rogue.git
+git push -u origin master
+cd unplugged
+ls
+git init
+git add -A
+git commit -m "half of HTML page"
+git remote add origin git@github.com:jam-web/unplugged.git
+git remove rm origin
+git remote rm origin
+git remote add origin git@github.com:jam-web/unplugged.git
+git push -u origin master
+cd unplugged
+git commit -m "CSS"
+git commit -m "css/main.css"
+git push -u origin master
+cd 206-first-website
+ls
+git init
+git add -
+git add -A
+git commit -m "businesscard"
+git remote add origin git@github.com:jam-web/206-coding-responsive.git
+git push -u origin master
+git remote rm origin
+git remote -v
+git remote add origin git@github.com:jam-web/206-coding-responsive.git
+git push -u origin master
+git remote -v
+cd color
+git init
+git add -A
+git commit -m "color-meda-template"
+git remote add origin git@github.com:jam-web/color-media-template.git
+git push -u origin master
+cd color
+git init
+git add -A
+git commit -m "mobile first design"
+git remote add origin git@github.com:jam-web/responsive-mobile-first.git
+git remote rm origin
+git remote add origin git@github.com:jam-web/responsive-mobile-first.git
+git push -u origin master
+cd rogue-responsive
+cd rogue-pickings
+git init
+git add -
+git add -A
+git commit -m "revised responsive rogue pickings"
+it remote add origin git@github.com:jam-web/rogue-pickings.git
+git remote add origin git@github.com:jam-web/rogue-pickings.git
+git push -u origin master
+cs html-boilerplate
+cd html-boilerplate
+ls
+cd html5-boilerplate-v7.3.0
+cd html-boilerplate
+ls
+git init
+git add -A
+git commit -m "html boilerplate initial"
+git remote add origin git@github.com:jam-web/html-boilerplate.git
+git push -u origin master
+..
+cd..
+cd..
+..cd
+cd css
+ls
+git init
+git add -A
+git commit -m "inital CSS Boilerplate"
+git remote add origin git@github.com:jam-web/css-boilerplate.git
+git push -u origin master
+la
+ls
+..cd
+cd coding-responsive-websites
+ls
+cd responsive
+get init
+git init
+ls
+git add -A
+git commit -m "initial"
+git remote add origin git@github.com:jam-web/responsive-template.git
+git push -u origin master
+cd layout
+git init
+git add -
+git add -A
+git commit -m "responsive template columns"
+git remote add origin git@github.com:jam-web/responsive-template-columns.git
+git push -u origin master
+cd css
+ls
+git init
+git add -a
+git add -A
+git commit -m "initial"
+git remote add origin git@github.com:jam-web/css-media-queries.git
+git push -u origin master
+cd flexbox
+ls
+git init
+git add -A
+git commit -m "initial"
+git remote add origin git@github.com:jam-web/flexbox.git
+git push -u origin master
+cd flexbox grid
+git init
+git add -A
+git commit -m "initial"
+..cd
+..
+cd flexbox grid
+cd..
+cd ..
+cd flexbox grid
+cd flexbox-grid
+cd ..
+cd ..
+cd flexbox-grid
+git init 
+git add -A
+git commit -m "initial"
+git remote add origin git@github.com:jam-web/flexbox-grid.git
+git push -u origin master
+cd responsive-breakpoints
+git init
+git add -A
+git commit -m "initial"
+git remote add origin git@github.com:jam-web/responsive-breakpoints.git
+git push -u origin master
+cd flexbox-template
+git init
+git add -A
+git commit -m "initial"
+git remote add origin git@github.com:jam-web/flexbox-template.git
+git push -u origin master
+cd website-types
+git init
+git add -A
+git commit -m "initial"
+git remote add origin git@github.com:jam-web/website-types.git
+git push -u origin
+git push -u origin master
+cd rogue-pickings
+ls
+git init
+git add -A
+git commit -m "initial"
+git remote add origin git@github.com:jam-web/responsive-rogue-pickings.git
+git push -u origin master
+judithmagee
+git push -u origin master
+git remote add origin git@github.com:jam-web/rogue-pickings.git
+git push -u origin master
+cd analogous
+git init
+git add -A
+git commit -m "revisions to all"
+git remote add origin git@github.com:jam-web/analogous.git
+git remote rm origin
+git remote add origin git@github.com:jam-web/analogous.git
+git push -u origin master
+cd analogous
+git commit -m "revised index to include social media links"
+git add -A
+git push -u origin master
+git commit -m "revised index"
+git push -u origin master
+cd analogous
+git add -A
+ls
+git commit -m "revised social media images"
+git init
+git add -A
+git commit -m "revised index"
+git push -u origin master
+git remote -v
+git remote rm origin
+git init
+git add -A
+git commit -m "revised"
+git push -u origin master
+git init analogous-portfolio
+git add -A
+git commit -m "initial"
+git remote add origin git@github.com:jam-web/analogous-portfolio.git
+git push -u origin master
+cd analogous
+git add -A
+git commit -m "revision"
+git push -u origin master
+git remote rm origin
+git push -u origin master
+git remote add origin git@github.com:jam-web/analogous.git
+git push -u origin master
+cd analogous
+git remote rm origin
+git init
+git add -A
+git add -A
+git commit -m "activated external links"
+git remote add origin git@github.com:jam-web/analogous.git
+git push -u origin master
+cd analogous
+git init
+git add -A
+git commit -m "added image"
+ls
+git remote add origin git@github.com:jam-web/portfolio.git
+git remote -v
+git remote rm origin
+git remote add origin git@github.com:jam-web/portfolio.git
+git push -u origin master
+$user = 'root';
+$password = 'root';
+$db = 'inventory';
+$host = 'localhost';
+$port = 3306;
+$link = mysql_connect(
+   "$host:$port", 
+   $user, 
+   $password
+);
+$db_selected = mysql_select_db(
+   $db, 
+   $link
+);
+cd analogous
+git remote rm origin
+ls
+git init
+git add -A
+git commit -m "revised"
+git remote add origin git@github.com:jam-web/analogous.git
+git push -u origin master
+cd analogous
+ls
+git push img
+git push -u origin master
+git remote -v
+cd analogous
+git init
+git add -A
+git commit -m "revised github icon"
+git remote rm origin
+git remote add origin git@github.com:jam-web/analogous.git
+git push -u origin master
+cd analogous
+ls
+git add index.html
+git commit "revised commit"
+git add .
+git commit -m "add revised html"
+git push origin master
+cd analogous
+ls
+git commit -m "revised git icon"
+git remote rm origin
+git add -A
+git commit -m "revised git icon"
+git push index.html origin master
+git init
+git add -A
+git commit -m "revision of git icon"
+git remote rm origin
+it remote add origin git@github.com:jam-web/analogous.git
+git remote add origin git@github.com:jam-web/analogous.git
+git push -u origin master
+cd unplugged
+git init
+git add -A
+git commit -m "inital commit"
+git remote add origin git@github.com:jam-web/unplugged.git
+git remote rm origin
+git remote add origin git@github.com:jam-web/unplugged.git
+git push -u origin master
+cd analogous
+git add "index.html"
+git commit -m "added Github"
+git remote -u origin master
+git add .
+git commit -m "add revised index"
+git push origin master
+cd unplugged
+ls
+git add -A
+git commit -m "commit responsive styles"
+git remote rm origin
+git remote add origin git@github.com:jam-web/unplugged-responsive.git
+git push -u origin master

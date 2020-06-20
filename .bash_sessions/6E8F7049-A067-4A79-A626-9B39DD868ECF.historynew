@@ -1,0 +1,8 @@
+cd unplugged
+git init
+git add -A
+git commit -m "initial"
+git remote add origin git@github.com:jam-web/responsive-unplugged.git
+git remote rm origin
+git remote add origin git@github.com:jam-web/responsive-unplugged.git
+git -u origin master

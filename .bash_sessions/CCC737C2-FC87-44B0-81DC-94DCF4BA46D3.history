@@ -1,0 +1,186 @@
+git --version2.23.0
+ git --version
+git version 
+git version
+git config --global "jam-web1-hash"
+git config --global "judith@jamweb1.com"
+git config user.name
+git config user.email
+git config --global "judithmagee"
+git config --global "judith.magee"
+git config --global user.mail "judith783@gmail.com
+pwd 
+pwd/judithmagee
+/users/judithmagee
+is
+mkdir
+mdkir judith_magee
+is
+cd
+cd judith_magee
+mkdir jubliee
+is
+
+'chsh -s /bin/zsh'
+man zsh
+pwd 
+is
+Is
+1s
+ls
+mkdir jamweb1
+ls
+cd jamweb1
+ls
+pwd
+ls
+cd Documents
+ls cd wonder
+cd ../../
+pwd
+mkdir much_wow
+ls
+cd much_wow
+touch index.html
+open index.htl
+open index.html
+wow so much to learn
+cd ../
+cat index.html
+cat index.html
+cd much_wow
+cat index.html
+cd much_wow
+mkdir css
+ls
+mkdir css.main
+ls
+touch css/main.css
+cd much_wow
+cd ..
+cd much_wow
+mkdir img
+rm -r img
+ls
+cd judith_magee
+ls
+git init
+git status
+git add jubliee/main.html
+users/judithmagee/jubilee/main.html
+git add =A
+git add -A
+git status
+cd 
+cd /Users/judithmagee/jubilee 
+cd /users/judithmagee/documents/git
+ls
+cd /documents
+./
+cd /users/judithmagee/documents
+ls
+ls
+cd /my-first-repo/
+cd /my-first-repo/index.html
+'chsh -s /bin/zsh'
+cd /documents/my-first-repo
+cd /documents/my-first-repo
+1s
+cd /users/judithmagee/documents/my-first-repo/
+1s
+ls
+git init
+git status
+gid add -A
+git add -A
+git status
+git commit —m
+hit commit —m
+git commit —m "Initial commit"
+git log
+git status
+git add -A
+git commit —m "initial commit"
+git status
+git log
+cd my-first-repo
+cd /Users/judithmagee/Documents/my-first-repo 
+1s
+ls
+git init
+git status
+git add -A
+git status
+git commit -m
+git commit -m "Intial commit"
+git status
+git log
+get status
+cd my-first-repo
+git status
+git diff
+git add "index.html'
+git commit
+git commit -m "Added name to index.html"
+git log
+cd
+ls
+
+cd
+pwd
+mkdir .ssh
+cd .ssh
+"judith@jamweb1.com"
+ssh-keygen -t rsa -C "judith@jamweb1.com
+cd 
+pwd
+cd .ssh
+ssh-keygen -t rsa -C "judith@jamweb1.com"
+ssh-add -K -/.ssh/id_rsa.
+pbcopy <-/c 
+pbcopy < -/.ssh/id_rsa.pub
+$ ssh-keygen -t rsa -b 4096 -C "judith@jamweb1.com"
+ls -al ~/.ssh
+pbcopy < ~/.ssh/id_rsa.pub
+ssh -T git@github.com
+cd my-first-repo
+pwd 
+cd judithmagee
+cd my-first-repo
+cd much_wow
+cd /judithmagee/much_wow
+cd judithmagee
+cd /judithmagee/documents/my-first-repo
+ls
+cd known_hosts
+ls
+git status
+cd ../Documents/
+/documents/my-first-repo
+ls
+git remote add origin https://github.com/jam-web1-hash/my-first-repo-Jubilee-Austen.git
+git push -u origin master
+https://github.com/jam-web1-hash/105-project.git
+https://github.com/jam-web1-hash/105-project.git
+cd ..
+https://github.com/jam-web1-hash/105-project.git
+git clone https://github.com/jam-web1-hash/105-project.git
+cd 105-project
+git status
+git add index.html
+git push origin master
+cd /documents/my-first-repo/
+ls
+cd /documents/
+pwd
+cd documents
+cd my-first-repo
+pwd
+ls
+git checkout -b home-page-edits
+git branch
+git add "Changes to index.html in my-first-repo"
+git add index.html 
+git commit -m "added new paragraph"
+git status
+git log

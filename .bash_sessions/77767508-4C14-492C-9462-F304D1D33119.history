@@ -1,0 +1,506 @@
+ls
+cd advice
+ls
+ls
+cd documents/105-practice
+ls
+git add -A
+ls
+git add/judith-m-advice.html
+cd ..
+ls
+cd 105-practice
+ls
+cd advice
+ls
+git commit
+cd documents/105-practice
+cd advice
+ls
+git command "Add judith-m-advice.html file"
+git commit -m "add file judith-m-advice.html to advice direcotry"
+git push origin advice
+open
+git add judith-m-advice.html
+open judith-m-advice.html
+/Users/judithmagee/Documents/105-practice/advice/judith-m-advice.html 
+open judith-m-advice.html
+git add documents/105-practice/advice/ judith-m-html.html
+git add documents/105-practice/advice/judith-m-advice.html
+open
+ls
+cd ..
+git command "advice"
+git add "Advice"
+ls
+cd advice
+ls
+git push origin advice
+cd ..
+git remote add upstream git@github.com:skillcrush/105-practice.git
+git remote -v
+git fetch upstream
+git branch -a
+git checkout
+git merge upstream/master
+ls
+git checkout
+git merge
+git push origin advice
+git push origin advice
+ls
+cd documents
+cd 105-practice
+cd advice
+ls
+cd ..
+git remote upstream git@github.com:skillcrush/105-practice.git
+git remote -v
+git fetch upstream
+git branch -a
+cd upstream/master
+cd advice
+ls
+cd branch -a
+git checkout
+git merge upstream/master
+git checkout
+git merge
+git push origin advice
+ls
+cd ..
+git commit advice
+cd documents/105-practice
+ls
+git remote add upstream git@github.com:skillcrush/105-practice.git
+git remote -v
+git branch -a
+git checkout master
+git branch
+git merge upstream/master
+git checkout master
+git merge
+git merge advice master
+ls
+cd advice
+git merge
+ls
+git diff
+ ..
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+ls
+master
+open master
+cd 105-coding_resources
+cd documents
+ls
+open 105-coding_resources
+ls
+git clone git@github.com:jam-web1-hash/105-coding_resources.git
+cd 105-coding_resources
+ls
+git checkout -b about-page
+ls
+git status
+git status
+git add -A
+git commit "Addition of Contact Me link to main page/about.html"
+git status
+git commit index.html "add contact me link"
+git commit index.html "changed file to add contact me link"
+git commit index.html
+ls
+cd documents
+cd 105-coding_resources repo
+ls
+git status
+git commit
+git push origin about-page
+ls
+git checkout master
+ls
+cd ..
+ls
+git checkout master
+cd 105-coding_resources 
+ls
+git status
+git merge about-page -m "Merge about page into master"
+git log
+ls
+cd documents/105-coding_resources
+ls
+git branch -d about-page
+git branch
+git push origin master
+ls
+cd ..
+ls
+cd 105-practice
+git checkout -b advice
+open 105-practice
+open
+ls
+cd advice
+ls
+git add index.html
+cd ..
+ls
+get add index.html
+git add index.html
+git add advice/judith-m-advice.html
+git push origin advice
+git merge master
+git push origin advice.html
+ls
+cd rootjubilee
+cd rootjubillee
+ls
+cd 101-jubilee_austen-master
+ls
+cd ..
+cd ..
+pwd
+touch .gitignore
+git add .gitignore
+git commit -m "added gitignore file"
+git config --global --edit
+git push origin master
+cd rootjubillee
+ls
+cd 101-jubilee-austen-master
+open 101-jubilee-austen-master
+cd ..
+git push origin master
+cd my-first-repo-Jubilee-Austen.git
+open jam-web1-hash
+git branch gh-pages
+git push origin gh-pages
+git push origin gh-pages
+mkdir rootjubilee
+open .
+rm -r rootjubilee
+mkdir masterjubilee
+open .
+git init
+git status
+git add masterjubilee
+git commit -m "Jubilee Austen"
+ls
+git config --global "judith_m"
+git config --global user.name "judith_m"
+git config --global user.email "judith@jamweb1.com
+git config user.name
+git config user.email
+ls
+cd ..
+
+pwd
+ls
+cd masterjubilee
+ls
+mkdir jubilee 
+touch index.html
+cd jubilee
+ls
+ls
+pwd
+ls
+git init
+git init
+git add -A
+git commit -m "Depository for Jubilee Austen Website"
+git remote add origin git@github.com:jam-web1-hash/JubileeAusten.git
+git push -u origin master
+rm -r my-first-repo-Jubilee-Austen.git
+rm -r my-first-repo-Jubilee-Austen
+cd jubileeausten
+ls
+cd masterjubilee
+git checkout -m <masterjubilee> gh-pages
+cd ..
+ls
+git branch -m <masterjubilee> gh-pages
+git checkout -b <gh-pages>
+ls
+git checkout gh-pages
+cd masterjubilee
+ls
+cd jubilee
+ls
+git checkout gh-pages
+git checkout "gh-pages"
+git checkout -b <gh-pages>
+ls
+git branch -m <jubilee> gh-pages
+git branch
+git checkout -b gh-pages
+git push origin gh-pages
+mkdir origin
+ls
+git push origin gh-pages
+cd ..
+cd ..
+cd masterjubilee/jubilee
+git push judithmagee gh-pages
+git push masterjubilee gh-pages
+git push JubileeAusten gh-pages
+git push masterjubilee gh-pages
+git checkout master
+git fetch origin master
+ls
+git fetch master
+git fetch origin master
+ls
+git branch
+git push origin gh-pages
+git push JubileeAusten gh-pages
+git push <users/judithmagee/masterjubilee/jubilee/> gh-pages
+git push jubilee gh-pages
+git push JubileeAusten gh-pages
+cd ..
+cd..
+cd..
+cd ..
+cd ..
+cd ..
+cd ..
+git push masterjubilee/jubilee/gh-pages 
+cd ..
+ls
+git push <Users> gh-pages
+git remote -v
+git status
+rm -rf .git
+git status
+cd jubilee
+git status
+git remote -v
+ls -a
+git init
+git add -A
+git commit -m "Initial Commit"
+git config --global user.name "judithmagee"
+git config --global user.email "judith783@gmail.com"
+git config user.name
+git config user.email
+git checkout gh-pages
+git branch
+git checkout -b gh-pages
+ls
+git branch -m jubilee gh-pages
+git remote -v
+git status
+ls a-
+ls -a
+git push origin gh-pages
+git push jubilee gh-pages
+git push JubileeAusten gh-pages
+git remote add origin git@github.com:jam-web1-hash/JubileeAusten.git
+git push -u origin master
+ls
+git branch
+git push origin gh-pages
+ls
+ls a
+git checkout jubilee
+ls
+cd jubilee
+ls
+git push origin gh-pages
+ls
+git remote -v
+git status
+ls -a
+git init
+git add -A
+git commit -m "Addedendum to Initial Commit"
+git push origin gh-pages
+git push --help
+git remote -v
+ls
+cd jubilee
+ls
+git status
+cd ..
+git status
+cd jubilee
+ls -a
+cd ..
+ls
+cd /Users/judithmagee/jubilee 
+ls
+git init
+git status
+git add -A
+git status
+git commit -m "Initial commit"
+git log
+git status origin
+git status master
+cd ..
+ls
+pwd
+mkdir .ssh
+ls
+cd jubilee
+pwd
+git remote add origin git@github.com:jam-web1-hash/jubilee-austen.git
+git push -u origin master
+cd ..
+git branch
+git branch master
+pwd
+git branch
+git branch "master"
+cd jubilee
+ls
+git checkout -b gh-pages
+git checkout
+git branch
+git checkout master
+git branch
+git status
+git log
+git push origin master
+ls
+cd ..
+pwd
+touch .gitignore
+open
+cd jubilee
+ls
+cd ..
+git add .gitignore
+cd jubilee
+git add .gitignore
+git commit -m "Added gitignore file"
+git add about
+git add index.html
+git push origin master
+ls
+git init
+git add -A
+git push origin gh-pages
+git remote add origin git@github.com:jam-web1-hash/jubilee-austen.git
+git push -u origin master
+ls
+git status
+cd jubilee
+ls
+git init
+git status
+ls -laf
+cat .git/HEAD
+git remote add origin git@github.com:jam-we1-hash/jubilee-austen.git
+git remote set-url origin https//github.com/judithmagee/jubilee
+git remote add origin git@github.com:jam-web1-hash/jubilee-austen.git
+git remote set-url origin https://users/judithmagee/jubilee/index.html
+git init
+git remote -v
+git branch -l
+originhttps://users/judithmagee/jubilee/index.html (push)
+git push origin  https://users/judithmagee/jubilee/index.html
+git commit -m "adding more files for commit"
+ls
+git init
+git remote -v
+git push origin master
+atal: unable to access 'https://users/judithmagee/jubilee/index.html/': Could not resolve host: users
+git config --global
+git config --unset http.proxy
+git config --global --unset http.proxy
+git config --system --unset http.proxy
+hostname
+ping judiths-air
+git push origin gh-pages
+origin
+git origin
+git branch
+git remote add jam-web1-hash
+git remote add jam-web1-hash/users/judithmagee/jubilee
+git remote add jam-web1-hash/users/judithmagee/jubilee/index.html
+git remote add jam-web1-hash/jubilee-austen
+git remote add -m "master"
+git remote --track master
+git remote -v
+ls
+cd rogue
+ls
+git commit -m "Rogue Pickings First Commit"
+git init
+git add -A
+git status
+git status
+git add 
+git add .
+git config user.name
+git config user.email
+pwd
+ls
+touch index.html
+open .
+cat index.html
+git status
+git add -A
+git init
+git remote -v
+ssh -T git@github.com
+git user.name
+git config --global user.name
+git config --global user.email
+cd downloads
+cd test test
+ls
+cd "test test"
+ls
+git init 
+git add .
+git commit -m "Test"
+git remote add origin git@github.com:jam-web1-hash/test.git
+git push -u origin master
+cd ..
+cd ..
+cd jubilee
+ls
+git status
+git push jubilee master
+ls
+git status
+git add .
+git commit -m "add index.html"
+git remote -v
+git remote rm gh-pages
+git remote rm origins
+git remote rm origin
+git remote v
+git remote -v
+ls
+cd .
+cd ..
+cd jubilee
+ls
+git remote add origin git@github.com:jam-web1-hash/jubilee.git
+git push -u origin master
+git branch -a
+git push origin gh-pages 
+'chsh -s /bin/zsh'
+git --global user.name
+git config --global user.name
+git config --global user.email
+cd downloads
+cd jubilee
+cd ..
+cd jubilee
+ls
+cd jubilee
+ls
+git status
+git status on branch gh-pages
+git add
+git commit -a

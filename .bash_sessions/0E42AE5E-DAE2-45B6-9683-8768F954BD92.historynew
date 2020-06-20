@@ -1,0 +1,7 @@
+cd unplugged
+git commit -m "revisions"
+git add -A
+git commit -m "revisions"
+git remote rm origin
+git remote add origin git@github.com:jam-web/responsive-unplugged.git
+git push -u origin master

@@ -1,0 +1,36 @@
+cd jubilee-demo
+ls -a
+touch .gitignore
+git init
+git add -A
+git push origin gh-pages
+git checkout
+git branch -m master gh-pages
+git push origin gh-pages
+git pull origin
+git add -A
+git commit -m "Revised"
+git branch -m master gh-pages
+git push origin gh-pages
+git remote -v
+git push origin gh-pages
+git origin
+git add remote origin github
+git remote add origin github
+git push gh-pages
+git remote
+git remote -v
+git remote add https://github.com/jam-web/jubilee-demo.git
+git remote -v
+git remote remove origin
+git remote -v
+git push gh-pages
+git push origin master
+git init
+git add .
+git commit -m "Revision"
+git remote add origin https://jam-web.github.io/jubilee-demo//
+git remote -v
+git push-u origin master
+git push -u origin master
+git remote -v

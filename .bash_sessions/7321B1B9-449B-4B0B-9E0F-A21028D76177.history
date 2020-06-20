@@ -1,0 +1,568 @@
+cat
+cd desktop
+cd 105-practice
+ls
+git init
+git add
+git add .
+git commit
+git status
+cd ..
+mkdir much_wow
+ls
+touch index.html
+cat index.html
+cd 105-practice
+cat index.html
+git init
+git status
+git add index.html
+git status
+git commit -m "practice"
+git checkout master
+git remote add origin git@github.com:jam-web/105-practice.git
+git push -u origin master
+ls
+create gh-pages
+git remote -v
+git push -u origin master
+ls
+remote v-
+git remote -v
+rm -r
+git remote -v
+cd rogue 
+ls
+ls
+branch
+git branch master
+git status
+git push 
+rm -r 
+git remote -v
+rm -r origin 
+rm -r git@github.com:jam-web1-hash/Rogue.git (fetch)
+rm - r git@github.com:jam-web1-hash/Rogue.git
+rm - r origin git@github.com:jam-web1-hash/Rogue.git
+git remote -v
+git remote
+git fetch origin
+git remote remove
+git remote remove origin
+git remote -v
+git status
+git rm -
+git rm -a
+git rm img/skillcrush-student-site.psd
+git status
+git rm img/skillcrush-student-site-grid.png
+git status
+git rm img/skillcrush-student-site-annotated.png
+git rm img/skillcrush-student-site-annotated.png
+git rm img/contact.png
+git status
+git rm img/icon-twitter.png
+git rm img/icon-tumblr.png
+git rm img/icong-pencil.png
+git rm img/icon-linkedin.png
+git rm img/greenbeans.jpg
+git rm img/hero.png
+git rm img/icon-css.png
+git status
+git rm img/icon-envelope.png
+git rm img/icon-github.png
+git rm img/icon-html.png
+git rm img/icon-instagram.png
+git rm img/icon-pencil.png
+git status
+git init
+git commit -m "Initial commit"
+ls
+git statuus
+git -v
+git status -v
+pwd
+ls -a
+git init
+git status
+git init
+git add fonts
+git add css
+git add img
+git add index.html
+git status
+git commit -m "Initial Commit"
+ls
+git version -v
+git log
+cd ..
+mkdir .ssh
+cd .ssh
+ssh-keygen -t rsa -C "judith783@gmail.com"
+ssh-add -K -/.ssh/id_rsa
+pbcopy < ~/ .ssh/id_rsa.pub
+pbcopy < ~/.ssh-add -K ~.ssh/id_rsa
+pbcopy < ~/.ssh/id_rsa.pub
+ssh -T git@github.com
+yes
+cd rogue
+git status
+git status
+touch .gitignore
+open
+open .
+git add .gitignore
+git commit -m "Added gitignore file"
+git push origin master
+git remote -v
+ls
+git init
+git commit -m "Initial commit"
+it remote add origin git@github.com:jam-web/Rogue.git
+git remote add origin git@github.com:jam-web/Rogue.git
+git push -u origin master
+git branch -m <master> gh-pages
+git checkout
+ls
+git push origin gh-pages
+git remote -v
+minimal
+cd minimal
+ls
+ls -a
+crsutil status
+git status
+cd 105-practice
+ls
+cd skillcrush
+cd desktop
+cd skillcrush
+ls
+cd 105-practice
+ls
+git status
+git branch
+git remote set-url origin git@github.com:jam-web/105-practice.git
+git remote -v
+git push origin advice
+git remote add upstream git@github.com:skillcrush/105-practice.git
+git remote -v
+git fetch upstream
+git checkout master
+git merge upstream/master
+git checkout advice
+git merge master
+ssh-add -K ~/.ssh/id_rsa
+cd desktop
+cd skillcrush
+cd 105-practice
+ls
+git push origin advice
+git checkout master
+git merge -m "Merge advice branch into master branch"
+git log
+git checkout master
+cd desktop
+cd 105-practice
+git remote -v
+cd skillcrush
+ls
+cd 105-practice
+ls
+git remote -v
+ls
+cd ..
+cd minimal
+ls
+cd ..
+cd minimal
+cd ..
+cd minimal
+ls
+git init
+git status
+git add index.html css/ img/
+git status
+git commit -m "Initial commit"
+git push origin master
+ssh -T git@github.com
+pwd
+git checkout -b gh-pages
+git branch
+git branch a-
+git checkout master
+touch .gitignore
+git add .gitignore
+git commit -m "Added gitignore file"
+git push origin master
+git branch gh-pages
+git push origin gh-pages
+ssh -T git@github.com
+git remote -v
+git remote set-url upstream 
+cd minimal-design-demo
+ls
+ls -a
+git branch
+rm -r minimal
+git branch -d a-
+git branch
+git remote add origin git@github.com:jam-web/minimal-design-demo.git
+git remote -v
+ls
+git add minimal-design-demo/css
+git add a-
+git status
+git add -A
+git commit -m "Initial commit"
+git remote -v
+git push origin master
+git init minimal-design-demo
+ls
+git remote -v
+git push origin master
+git pull origin master
+git remote -v
+git remote add origin git@github.com:jam-web/minimal-design-demo.git
+git remote -v
+git push origin master
+git branch
+git config --list
+git remote -v
+ls
+get remote minimal-design-demo
+git remote minimal-design-demo
+cd minimal-design-demo
+ls
+git init
+git status
+git add css img index.html
+ls
+gt status
+git status
+ls -a
+git commit -m "initial commit"
+pwd
+git checkout -b gh-pages
+git branch
+git merge gh-pages -m "Merged gh-pages to master branch"
+git branch
+git push origin gh-pages
+git checkout -b gh-pages
+git branch -a
+git commit -m "gh-pages"
+touch gh-pages/index.html
+git checkout gh-pages
+ls
+git commit -m "initial commit"
+ls -a
+git remote -v
+git remote set-url upstream minimal-design-demo.git
+git remote set-url origin git@github.com:jam-web/minimal-design-demo.git
+git remote -v
+git remote -v
+git remote
+git remote add pb  https://jam-web.github.io/minimal-design-demo/
+git remote -v
+git fetch pb
+git branch
+git clone  https://jam-web.github.io/minimal-design-demo/
+git git@github.com:jam-web/minimal-design-demo.git
+git clone --bare minimal-demo-demo.git 
+git initi minimal-design-demo
+git init minimal-design-demo
+git remote -v
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin git@github.com:judithmagee/minimal-design-demo.git
+git push origin master
+git pull git@github.com:jam-web/minimal-design-demo.git 
+git merge master
+git push origin master
+git ls-remote minimal-design-demo
+git ls
+ls
+git commit -m "Initial commit"
+git remote show gh-pages
+git remote show master
+git remote show origin
+git push master master
+git init
+git remote -v
+git fetch origin
+git fetch gh-pages
+git remote -v
+git merge origin/master
+git checkout -b gh-pages origin/master
+git checkout --track origin/serverfi
+git checkout --track origin/master
+git checkout --track origin
+git gh-pages
+git status
+git commit -m "add index.html"
+git remote -v
+git remote rm origins
+git remote rm origin
+git remote rm pb
+git remote -v
+ls
+git remote add origin git@github.com:jam-web/minimal-design-demo
+git branch -a
+git push origin gh-pages
+git sttus
+git status
+ls
+git remote -v
+git commit -m "add index.html"
+ls
+ls -a
+git add css
+git add img
+git remote -v
+git remote rm origin
+git remote -v
+git commit -m "initial commit"
+git remote -v
+git remote add origin git@github.com:jam-web/minimal-design-demo.git
+git push - u origin master
+git branch -a
+git push origin gh-pages
+git gh-pages
+git remote -v
+cd recipe
+ls
+git init 
+git add -A
+git touch .gitignore
+git commit
+cd recipe
+git commit
+touch .gitignore
+git add -A
+git init
+git checkout gh-pages
+git branch gh-pages
+git branch  --list
+git checkout -b gh-pages
+git commit -A
+git init
+git commit -m "Initial commit"
+git branch -a
+git checkout master
+git checkout master
+git remote -v
+git branch master
+git branch -a
+git remote add origin git@github.com:jam-web/recipe.git
+git push -u origin master
+git remote -v
+git rm origin
+git push origin gh-pages
+git checkout
+git branch -m master gh-pages
+git push origin gh-pages
+git branch -m master
+git branch -m origin
+git checkout master
+ls
+git add -A
+git init
+git commit -m "initial commit"
+git branch -m master gh-pages
+git push origin gh-pages
+git init
+git remote rm origin
+git checkout gh-pages
+git push origin gh-pages
+git remote add origin git@github.com:jam-web/recipe.git
+git push -u origin master
+git remote -v
+git remote rm origin
+git push -u origin master
+git rm origin
+ls
+git commit -m "initial commit"
+git push origin gh-pages
+git remote rm origin
+git remote -v
+git remote add origin git@github.com:jam-web/recipe.git
+git push -u origin master
+git gc
+git push origin master
+git log
+git push
+git push --set-upstream origin gh-pages
+git remote add origin git@github.com:jam-web/recipe.git
+git push -u origin master
+cd recipe
+ls
+git add -A
+git push index.html
+git commit -m "updated index.html file"
+git push index.html
+git push origin master:master
+git push origin master
+git push origin gh-pages
+git fetch
+git remote -v
+git reset --hard origin/master
+git remote rm origin
+git remote rm gh-pages
+git create gh-pages
+git checkout gh-pages
+git remote -v
+ls
+git checkout master
+git checkout master
+git branch -a
+git branch -r
+git rm origin
+git checkout origin
+ls
+git rm origin
+git branch -rd origin
+git branch -a
+git checkout gh-pages
+git branch -rd origin
+git branch -d origin
+git branch -a
+git checkout master
+git checkout gh-pages
+git merge master
+git checkout master
+git branch master
+git merge master
+git remote -v
+ls
+git add -A
+get commit -m "revised index"
+git commit -m "revise index"
+git merge 
+git branch master
+git checkout master
+ls
+git add -A
+git commit -m "index"
+git remote -v
+git remote add origin git@github.com:jam-web/recipe.git
+git push -u origin branch
+git remote -v
+git pull --rebase origin master
+git push origin master
+git push -u origin master
+git remote -v
+git remote remove origin
+git init
+git add -A
+ls
+git status
+git commit -m "Revised index"
+ls
+git remote -v
+git remote add origin git@github.com:jam-web/recipe.git
+git remote -v
+git push -u origin master
+git remote rm origin
+git status
+git status
+git create gh-pages
+git checkout gh-pages
+git status
+git add -A
+ls
+git init
+git commit -m "Revised index"
+ls
+git reset --hard origin/master
+pwd
+ls -a
+git checkout gh-pages
+git push origin index.html
+git remote add origin git@github.com:jam-web/recipe.git
+git push -u origin master
+git remote -v
+cd recipe
+ls
+pwd
+ls -a
+git init
+git add -A
+git commit -m "Revised index"
+git checkout master
+git rm origin
+git rm origin/master
+git branch -a
+git remote show origin
+git status
+git remote -v
+git remote rm origin
+git remote -v
+cd jubilee
+ls
+cd ls
+ls
+ls -a
+git checkout --idex.html
+git remote -v
+git checkout gh-pages
+cd jubilee-demo
+cd ..
+cd jubilee-demo
+ls
+git init
+git commit -A
+git commit -m "Revised index file"
+git add -a
+git commit -m 
+git commit -m "revised index"
+git commit css/
+git add css
+git add img
+git add index.html
+git remote -v
+ls
+git commit -m "revised index"
+git remote -v
+git push 
+git remote add jubilee-demo
+git init
+git add -a
+ls
+git commit -m "Revised index"
+git checkout gh-pages
+git pull
+git checkout -b  gh-pages
+git push origin gh-pages
+git branch -a
+git init
+git add -a
+git add -A
+git commit -m "Revised index"
+git remote -v
+git remote add jubilee-demo gh-pages
+git push jubilee-demo 
+git fetch jubilee-demo
+git branch -a
+ls
+ls
+ls -a
+git rm origin/master
+git checkout gh-pages
+git checkout origin/master
+git checkout -b
+git branch -a
+ls -a
+git add -A
+git commit -m 'Revised index'
+git init
+git remote -v
+git remote rm destination
+git remote rm origin
+git remote add origin git@github.com:jam-web/jubilee-demo.git
+git push 
+git push origin gh-pages
+git config --global judithmagee
+git remote add origin git@github.com:jam-web/jubilee-demo.git
+git rm origin
+git push gh-pages

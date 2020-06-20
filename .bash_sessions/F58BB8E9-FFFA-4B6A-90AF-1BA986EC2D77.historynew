@@ -1,0 +1,124 @@
+cd 105-practice
+cd desktop/105-practice
+ls
+cd skillcrush
+cd desktop
+ls
+cd skillcrus
+cd skillcrush
+ls
+cd 105-practice
+git status
+git checkout advice
+git status
+git merge master
+git log --oneline
+git push origin advice
+git push origin advice
+git remote -v
+checkout master
+git checkout master
+git remove -v
+git remote -v
+cd advice
+git push origin advice
+git remote -v
+git checkout master
+git remote add upstream git@github.com:skillcrush/105_practice.git
+git status
+git checkout master
+git fetch upstream git@github.com:skillcrush/105_practice
+git remote add
+git remote add upstream git@github.com:skillcrush/advice.git
+git status
+git checkout master
+git fetch upstream git@github.com:skillcrush/advice.git
+git remote -v
+git fetch upstream git@github.com:skillcrush/105-practice.git
+git merge upstream master
+git push origin --delete
+git remote remove origin
+git remote remove upstream
+git remote -v
+pwd
+cd ..
+cd ..
+git clone git@github.com:jam-web/105-coding_resources.git
+cd 105-coding_resources
+ls
+open
+open index.html
+git checkout -b about-page
+git status
+git add -A
+git push origin about-page
+git status
+git checkout master
+git branch
+git log
+git merge about-page -m "Merge about page into master"
+git branch -d about-page
+git push origin master
+git checkout -b about-page-edits
+git branch
+git add -A
+git commit -m "Changed h3 title"
+git status
+git merge about-page-edits -m "Merged study buddy heading changes into master"
+git status
+pwd
+ls
+git commit -m "changed study heading"
+git add -A
+git commit -m "Commit changes to about page"
+git branch -d about-page-edits
+git push origin master
+git branch
+git cheeckout master
+git checkout master
+ls
+touch .gitignore
+git add .gitignore
+git commit -m "Added gitignore file"
+git push origin master
+cd ..
+cd ..
+cd ..
+ls
+cd skillcrush
+cd desktop
+cd skillcrush
+ls
+git clone git@github.com:jam-web/105-practice.git
+cd 105-practice
+git checkout -b advice
+ls
+git add -A
+git commit -m "Adding my name to advice"
+git push origin advice
+git remote -v
+git init
+git remote -v
+git push origin advice
+git remote -v
+git origin
+git push origin advice
+git branch
+git checkout advice
+git push origin advice
+git remove origin
+git remote -v
+rm -r origin
+re -r 105_practice
+ls -a
+git remote -v
+git branch
+git add -A
+git commit -m "changes"
+ls
+git checkout branch
+git checkout master
+ls
+git add -A
+git commit -m "changes"
+git push origin advice
